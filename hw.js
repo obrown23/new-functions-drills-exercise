@@ -92,6 +92,9 @@ const anyStartingWithB = function (words) {
   // Your Code Here
 }
 
+// This last set of functions are all related to one another! Use functions 7 to solve function 8,
+// use function 8 to solve 9, 10, and 11.
+
 // #7
 // Input: a single word and a number (`n`)
 // Output: `true` if the word has at least some number (`n`) of vowels,
