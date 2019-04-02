@@ -118,7 +118,7 @@ console.log(fiveLetters)
 
 const allStartingWithA = function (words) {
   for(let i = 0; i < words.length; i++){
-    let startLetter= words[i] 
+    let startLetter= words[i] [0] 
     if(startLetter === "a") {
       return (true)
     }
@@ -137,7 +137,7 @@ const allStartingWithA = function (words) {
 //   Expect anyStartingWithB(['apple', 'alligator', 'Arkansas'])) to equal false
 const anyStartingWithB = function (words) {
   for(let i = 0; i < words.length; i++){
-    let startLetter= words[i] 
+    let startLetter= words[i] [0]
     if(startLetter === "b") {
       return (true)
     }
@@ -165,7 +165,38 @@ const anyStartingWithB = function (words) {
 //  Expect hasAtLeastNVowels('dangerous', 5) to equal false
 //  Expect hasAtLeastNVowels('banana', -1) to equal null
 const hasAtLeastNVowels = function (word, n) {
+  if(n<0){
+    return(null)
+  }
+  for(let i = 0; i < words.length; i++){
+let x = words.length[i]; 
+if ( x === "a" ){ 
+  return (true)
+}
+else if(
+  x === "e"
+){ 
+  return (true)
+}
+else if(
+  x === "i"
+){
+  return (true)
+}
+else if(
+  x === "o"
+)
+else if(
+  x === "u"
+){
+  return (true)
+}
+else (
+  return(false)
+)
 
+
+  }
   // Your Code Here
 }
 
