@@ -72,8 +72,13 @@ sumOfNums([])
 
 const allGreaterThanTen = function (numsArray) {
   for(let i = 0; i < numsArray.length; i++) {
-    if(numsArray[i]>10) {return (true)} 
-    else{return (false)} {return (true)}
+    if(numsArray[i]>10) {
+      return (true)
+    } 
+    else {
+      return (false)
+    } 
+    {return (true)}
   }
   
   // Your Code Here
@@ -112,13 +117,16 @@ console.log(fiveLetters)
 //  Expect allStartingWithA([]) to equal true
 
 const allStartingWithA = function (words) {
-  for(let i = 0; i < numsArray.length; i++) {
-    if(words[i]>10) {z.push(numsArray[i])}
-    
+  for(let i = 0; i < words.length; i++){
+    let startLetter= words[i] 
+    if(startLetter !=== "a") {
+      return (false)
+    }
+    else if (return (true))
   }
-console.log(z) 
   // Your Code Here
 }
+
 
 // #6
 // Input: an array of words
