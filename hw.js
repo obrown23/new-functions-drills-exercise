@@ -209,6 +209,34 @@ else (
 //     to equal ['alphabet', 'doe']
 
 const wordsWithAtLeastTwoVowels = function (words) {
+  let atLeastTwo = []
+  for(let i = 0; i < words.length; i++){
+let x = words.length[i]; 
+if ( x === "a" ){ 
+  return (true)
+}
+else if(
+  x === "e"
+){ 
+  return (true)
+}
+else if(
+  x === "i"
+){
+  return (true)
+}
+else if(
+  x === "o"
+)
+else if(
+  x === "u"
+){
+  return (true)
+}
+else (
+  return(false)
+)
+
 
   // Your Code Here
 }
@@ -223,7 +251,7 @@ const wordsWithAtLeastTwoVowels = function (words) {
 //  Expect allHaveAtLeastTwoVowels([]) to equal true
 
 const allHaveAtLeastTwoVowels = function (words) {
-
+let 
   // Your Code Here
 }
 
