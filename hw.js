@@ -17,10 +17,21 @@
 //   Expect sumOfNums([-1,0,1])) to equal 0
 //   Expect sumOfNums([])) to equal 0
 
-const sumOfNums = function (numsArray) {
 
+
+const sumOfNums = function (numsArray) {
+  let x = 0;
+for(let i = 0; i < numsArray.length; i++) {
+  x=x+numsArray[i]
+  
+}
+console.log(x)
   // Your Code Here
 }
+sumOfNums([1,2,3,4,5])
+sumOfNums([0,0,5])
+sumOfNums([-1,0,1])
+sumOfNums([])
 
 
 
@@ -30,11 +41,22 @@ const sumOfNums = function (numsArray) {
 //         greater (i.e. greater than but not equal to) than 10
 // Test Case: 
 //   Expect numsGreaterThanTen([-1, 0, 1, 9, 9.5, 9.99, 10, 11, 20, 100]) to equal [11, 20, 100]
+let z = [];
 
 const numsGreaterThanTen = function (numsArray) {
 
+  for(let i = 0; i < numsArray.length; i++) {
+    if(numsArray[i]>10) {z.push(numsArray[i])}
+    
+  }
+console.log(z) 
+
   // Your Code Here
 }
+sumOfNums([1,2,3,4,5])
+sumOfNums([0,0,5])
+sumOfNums([-1,0,1])
+sumOfNums([])
 
 // #3
 // Input: an array of numbers
@@ -49,9 +71,18 @@ const numsGreaterThanTen = function (numsArray) {
 //   Expect allGreaterThanTen([])).to.equal(true);
 
 const allGreaterThanTen = function (numsArray) {
-
+  for(let i = 0; i < numsArray.length; i++) {
+    if(numsArray[i]>10) {return(true)} 
+    else{return(false)} {return(true)}
+  }
+  
   // Your Code Here
 }
+sumOfNums([1,2,3,4,5])
+sumOfNums([0,0,5])
+sumOfNums([-1,0,1])
+sumOfNums([])
+
 
 // #4
 // Input: an array of words
