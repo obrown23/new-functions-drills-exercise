@@ -92,7 +92,9 @@ sumOfNums([])
 //    to equal ['alphabet', 'banana', 'carrot']
 
 const wordsWithAtLeastFiveLetters = function (words) {
-
+  for(let i = 0; i < words; i++) {
+    if(words[i]< 5) 
+  }
   // Your Code Here
 }
 
@@ -107,7 +109,11 @@ const wordsWithAtLeastFiveLetters = function (words) {
 //  Expect allStartingWithA([]) to equal true
 
 const allStartingWithA = function (words) {
-
+  for(let i = 0; i < numsArray.length; i++) {
+    if(words[i]>10) {z.push(numsArray[i])}
+    
+  }
+console.log(z) 
   // Your Code Here
 }
 
