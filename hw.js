@@ -72,8 +72,8 @@ sumOfNums([])
 
 const allGreaterThanTen = function (numsArray) {
   for(let i = 0; i < numsArray.length; i++) {
-    if(numsArray[i]>10) {return(true)} 
-    else{return(false)} {return(true)}
+    if(numsArray[i]>10) {return (true)} 
+    else{return (false)} {return (true)}
   }
   
   // Your Code Here
@@ -92,11 +92,14 @@ sumOfNums([])
 //    to equal ['alphabet', 'banana', 'carrot']
 
 const wordsWithAtLeastFiveLetters = function (words) {
-  for(let i = 0; i < words; i++) {
-    if(words[i]< 5) 
+  let fiveLetters = []
+  for(let i = 0; i < words.length; i++) {
+    if(words[i].length > 5){
+      fiveLetters.push(words[i])}
   }
   // Your Code Here
 }
+console.log(fiveLetters)
 
 // #5
 // Input: an array of words
