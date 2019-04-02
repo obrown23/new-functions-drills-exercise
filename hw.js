@@ -119,10 +119,10 @@ console.log(fiveLetters)
 const allStartingWithA = function (words) {
   for(let i = 0; i < words.length; i++){
     let startLetter= words[i] 
-    if(startLetter !=== "a") {
-      return (false)
+    if(startLetter === "a") {
+      return (true)
     }
-    else if (return (true))
+    else(startLetter ==="A") {return (false))}
   }
   // Your Code Here
 }
@@ -136,7 +136,17 @@ const allStartingWithA = function (words) {
 //   Expect anyStartingWithB(['Amy', 'Bob']) to equal true
 //   Expect anyStartingWithB(['apple', 'alligator', 'Arkansas'])) to equal false
 const anyStartingWithB = function (words) {
-
+  for(let i = 0; i < words.length; i++){
+    let startLetter= words[i] 
+    if(startLetter === "b") {
+      return (true)
+    }
+     if (startletter === 'B') {
+       return (false)
+     }
+      else {
+        return (false))}
+  }
   // Your Code Here
 }
 
